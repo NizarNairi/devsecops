@@ -10,7 +10,7 @@ pipeline {
         }
       stage('Maven Tests') {
             steps {
-              sh "mvn tet"
+              sh "mvn test"
                
             }
         }      
